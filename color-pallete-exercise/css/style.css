@@ -1,0 +1,69 @@
+#cp1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cp1-a {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cp1-b {
+    text-align: center;
+    background-color: rgb(6, 212, 243);
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cp1-c {
+    text-align: center;
+    background-color: rgb(37, 92, 169);
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}#cp2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+#cp2-a {
+    text-align: center;
+    background-color: rgba(69, 35, 0, 0.551);
+    padding: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+#cp2-b {
+    text-align: center;
+    background-color: rgb(221, 221, 0);
+    padding: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+#cp2-c {
+    text-align: center;
+    background-color: rgb(205, 252, 34);
+    padding: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+#cp3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cp3-a {
+    text-align: center;
+    background-color: rgb(96, 13, 173);
+    padding: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cp3-b {
+    text-align: center;
+    background-color: rgb(167, 6, 196);
+    padding: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cp3-c {
+    text-align: center;
+    background-color: rgb(251, 23, 240);
+    padding: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
