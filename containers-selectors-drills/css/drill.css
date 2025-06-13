@@ -1,0 +1,28 @@
+/* Drill 1 - Write your code solution below */
+#d1-p2 {
+    color: rgb(72, 233, 72);
+}
+
+
+/* Drill 2 - Write your code solution below */
+#drill2 .solution div p {
+    color: orangered;
+}
+
+
+/* Drill 3 - Write your code solution below */
+#drill3 .solution .dashed span {
+    color: magenta;
+}
+
+
+/* Drill 4 - Write your code solution below */
+#drill4 .solution .shadowed p {
+    background-color: skyblue;
+}
+
+
+/* Drill 5 - Write your code solution below */
+.dog-days img {
+    border-radius: 100%;
+}
