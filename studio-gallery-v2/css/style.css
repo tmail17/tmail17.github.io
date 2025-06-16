@@ -1,0 +1,54 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.display {
+    margin: 80px 12px 0px;
+    border: 10px outset rgb(10, 155, 160);
+    width: 120px;
+    display: inline-block;
+}
+.display div {
+    background-color: whitesmoke;
+    padding: 4px;
+    box-shadow: inset 2px 2px 2px #1115;
+}
+.display img {
+    width: 100%;
+    display: block;
+}
+.display2 {
+    margin: 80px 12px 0px;
+    border: 10px outset rgb(154, 31, 125);
+    width: 120px;
+    display: inline-block
+}
+.display2 div {
+    background-color: whitesmoke;
+    padding: 4px;
+    box-shadow: inset 2px 2px 2px #1115;
+}
+.display2 img {
+    width: 100%;
+    display: block;
+}
+.display3 {
+    margin: 80px 12px 0px;
+    border: 10px outset rgb(233, 90, 2);
+    width: 120px;
+    display: inline-block
+}
+.display3 div {
+    background-color: rgb(225, 225, 224);
+    padding: 4px;
+    box-shadow: inset 2px 2px 2px #1115;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display3 img {
+    width: 100%;
+    display: block;
+}
