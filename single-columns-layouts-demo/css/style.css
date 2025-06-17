@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+.light-container {
+    background-color: rgb(233, 126, 94);
+    color: white;
+    padding: 48px 0px;
+}
+.dark-container {
+    background-color: rgb(44, 141, 156);
+    color: white;
+    padding: 48px 0px;
+}
