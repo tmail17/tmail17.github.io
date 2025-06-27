@@ -5,3 +5,48 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#hero-1 {
+    background-image: url("../images/pexels-darina-belonogova-7406821.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-1 h1 {
+    font-size: 120px;
+    position: absolute;
+    left: 20%;
+    color: white;
+}
+#hero-2 {
+    background-image: url("../images/pexels-darina-belonogova-7406852.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-2 h1 {
+    font-size: 120px;
+    position: absolute;
+    left: 20%;
+    color: rgb(8, 149, 137);
+}
+#hero-3 {
+    background-image: url("../images/pexels-oscar-due-wang-68066-240160.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-3 h1 {
+    font-size: 120px;
+    position: absolute;
+    left: 20%;
+    color: #ffffff;
+}
