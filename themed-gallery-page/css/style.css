@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+#hero-1 {
+    background-image: url("../images/pexels-blooddrainer-735810.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#hero-1 h1 {
+    font-size: 75px;
+    position: absolute;
+    left: 20%;
+    color: greenyellow;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.graffiti-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.graffiti-gallery img {
+    height: 250px;
+    object-fit: cover;
+    flex: 1;
+}
+#gw {
+    color: yellowgreen;
+}
