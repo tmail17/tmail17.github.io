@@ -44,3 +44,12 @@ body {
     object-fit: cover;
     flex: 1;
 }
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: rgb(193, 33, 33);
+    padding: 24px;
+    margin: 10px;
+}
