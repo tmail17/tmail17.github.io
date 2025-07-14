@@ -139,3 +139,9 @@ img {
 #navbar .menu a:hover {
     background-color: #109cb8;
 }
+.menu {
+    position: absolute;
+}
+#brown {
+    position: relative;
+}
