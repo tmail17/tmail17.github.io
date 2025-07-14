@@ -84,8 +84,7 @@ body {
     margin-right: 24px;
 }
 img {
-    width: 860px;
-    margin: 20px;
+    width: 100%;
 }
 .single-column {
     min-width: 600px;
@@ -100,22 +99,43 @@ img {
 }
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .card {
     flex: 1;
     border: 3px solid #bfefff;
     padding: 36px;
     text-align: center;
-    margin: 36px;
 }
-
 .card h3 {
     font-size: 36px;
     margin: 0px;
 }
-
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+}
+
+#nabvar a:hover {
+    background-color: #0e5b96;
+}
+
+.drop {
+    position: relative;
+}
+.drop:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+.menu a {
+    background-color: #0e5b96;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .menu a:hover {
+    background-color: #109cb8;
 }
