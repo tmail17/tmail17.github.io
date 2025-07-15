@@ -5,3 +5,135 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#navbar {
+    background: linear-gradient(to bottom, rgb(229, 255, 0), #000000);
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar #logo img {
+    width: 150px;
+}
+
+#hero-2 {
+    background-image: url("../images/restaurant.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero-2 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+    color: white;
+}
+#hero-2 h4 {
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+    color: white;
+}
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: rgb(229, 255, 0);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, #d86fee, #8122ed);
+    padding: 48px;
+}
+
+
+/*
+    Media and text side-by-side implementation **************
+*/
+
+/*
+    As always, applying Flexbox to the container 
+    of the elements we want side by side is 
+    usually the way to go.
+
+    Remember that for a Flexbox row, the
+    align-items property can be used to 
+    align content vertically, in this case,
+    in the center of the container.
+*/
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+/*
+    In this case, we have the image and text containers
+    with equal sizes (flex: 1), but if you want the 
+    image to be larger, or conversely if you want the 
+    text area to be larger, you can adjust the flex 
+    values assigned to each container.
+*/
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+/*
+    This code tells the image to stretch
+    to fill the container we set up
+    above; this means that the image
+    will be as flexible as the Flexbox
+    item it is inside of.
+*/
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+/* fake button styling */
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3f0791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
