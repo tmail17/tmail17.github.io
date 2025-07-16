@@ -6,6 +6,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(45deg, rgb(46, 132, 246), green);
+    color: white;
 }
 
 .center-column {
@@ -31,7 +33,7 @@ img {
 }
 .card {
     flex: 1;
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -39,7 +41,9 @@ img {
     font-weight: 400;
     font-style: normal;
 }
-
+.vs {
+    margin-top: 250px;
+}
 .card h3 {
     font-size: 24px;
     margin: 0px;
@@ -55,9 +59,10 @@ img {
     text-align: center;
     border-radius: 20px;
     margin: 30px;
-      font-family: "Michroma", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 .button a {
     text-decoration: none;
@@ -69,7 +74,7 @@ img {
 }
 
 .button:hover {
-    background-color: rgb(70, 150, 255);
+    background-color: rgb(255, 0, 0);
     box-shadow: 4px 4px 4px #0003;
     transform: translateY(-8px);
 }
