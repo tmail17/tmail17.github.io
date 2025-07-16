@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Sedgwick+Ave&family=Tektur:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto;
+    text-align: center; 
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    width: 300px;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 3px solid #000000;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.button {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #ff0000;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px;
+      font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.button a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.button:hover {
+    background-color: rgb(70, 150, 255);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-8px);
+}
+.button {
+    transition: background-color 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+@media screen and (max-width: 740px) and (min-width: 451px) {
+    .single-column {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .single-column {
+        flex-direction: column;
+        align-items: center;
+    }
+}
