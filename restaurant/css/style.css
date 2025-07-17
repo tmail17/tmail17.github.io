@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Play:wght@400;700&family=Sedgwick+Ave&family=Tektur:wght@400..900&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Michroma", sans-serif;
 }
 #navbar {
     background: linear-gradient(to bottom, rgb(229, 255, 0), #000000);
     display: flex;
     align-items: center;
     font-size: larger;
+
 }
 #navbar a {
     text-decoration: none;
@@ -70,38 +72,15 @@ body {
 
 #main-section {
     background: 
-        radial-gradient(at top left, #d86fee, #8122ed);
+        radial-gradient(at top left, #ffffff, rgb(229, 255, 0));
     padding: 48px;
 }
-
-
-/*
-    Media and text side-by-side implementation **************
-*/
-
-/*
-    As always, applying Flexbox to the container 
-    of the elements we want side by side is 
-    usually the way to go.
-
-    Remember that for a Flexbox row, the
-    align-items property can be used to 
-    align content vertically, in this case,
-    in the center of the container.
-*/
 .side-by-side {
     display: flex;
     align-items: center;
     margin: 48px 0px;
 }
 
-/*
-    In this case, we have the image and text containers
-    with equal sizes (flex: 1), but if you want the 
-    image to be larger, or conversely if you want the 
-    text area to be larger, you can adjust the flex 
-    values assigned to each container.
-*/
 .side-by-side .image-container {
     flex: 1;
 }
@@ -110,14 +89,6 @@ body {
     flex: 1;
     padding: 36px;
 }
-
-/*
-    This code tells the image to stretch
-    to fill the container we set up
-    above; this means that the image
-    will be as flexible as the Flexbox
-    item it is inside of.
-*/
 .side-by-side .image-container img {
     width: 100%;
 }
@@ -126,14 +97,28 @@ body {
     font-size: 48px;
 }
 
-/* fake button styling */
 .side-by-side .text-container a {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #3f0791;
+    background-color: #000000;
     color: white;
     padding: 24px 48px;
     border-radius: 48px;
+}
+
+@media screen and (max-width: 740px) and (min-width: 451px) {
+    #her0-2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .side-by-side {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar {
+        flex-direction: column;
+    }
 }
